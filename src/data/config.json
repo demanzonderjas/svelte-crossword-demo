@@ -1,0 +1,157 @@
+{
+	"grid": [
+		["@", "@", "@", "@", "b", "e", "c", "k", "h", "a", "m", "@"],
+		["@", "@", "@", "@", "@", "@", "@", "@", "@", "u", "@", "@"],
+		["@", "@", "@", "@", "f", "@", "@", "@", "@", "s", "@", "@"],
+		["@", "p", "@", "w", "i", "g", "h", "t", "@", "t", "@", "e"],
+		["@", "e", "@", "@", "v", "@", "@", "h", "a", "r", "r", "y"],
+		["a", "n", "g", "l", "e", "s", "@", "a", "@", "a", "@", "e"],
+		["@", "i", "@", "o", "@", "@", "@", "t", "@", "l", "@", "@"],
+		["@", "n", "@", "n", "@", "@", "@", "c", "@", "i", "@", "@"],
+		["@", "s", "@", "d", "@", "@", "@", "h", "@", "a", "@", "@"],
+		["@", "u", "@", "o", "@", "@", "@", "e", "@", "@", "@", "@"],
+		["@", "l", "@", "n", "@", "@", "b", "r", "e", "x", "i", "t"],
+		["@", "a", "@", "@", "@", "@", "@", "@", "@", "@", "@", "@"]
+	],
+	"words": [
+		{
+			"answer": -232688951,
+			"coords": [[0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10]],
+			"description": "Last name wellknown soccer player",
+			"orientation": "horizontal",
+			"position": 1,
+			"startX": 4,
+			"startY": 0,
+			"uid": "lx8k76n06"
+		},
+		{
+			"answer": 933923200,
+			"coords": [
+				[0, 9],
+				[1, 9],
+				[2, 9],
+				[3, 9],
+				[4, 9],
+				[5, 9],
+				[6, 9],
+				[7, 9],
+				[8, 9]
+			],
+			"description": "Old colony of the UK",
+			"orientation": "vertical",
+			"position": 2,
+			"startX": 9,
+			"startY": 0,
+			"uid": "h8iplk1c1"
+		},
+		{
+			"answer": 3143346,
+			"coords": [[2, 4], [3, 4], [4, 4], [5, 4]],
+			"description": "Number of countries within the UK",
+			"orientation": "vertical",
+			"position": 3,
+			"startX": 4,
+			"startY": 2,
+			"uid": "dicy389fu"
+		},
+		{
+			"answer": 1311094869,
+			"coords": [
+				[3, 1],
+				[4, 1],
+				[5, 1],
+				[6, 1],
+				[7, 1],
+				[8, 1],
+				[9, 1],
+				[10, 1],
+				[11, 1]
+			],
+			"description": "Fancy name for island",
+			"orientation": "vertical",
+			"position": 4,
+			"startX": 1,
+			"startY": 3,
+			"uid": "qo05d0km5"
+		},
+		{
+			"answer": 113129377,
+			"coords": [[3, 3], [3, 4], [3, 5], [3, 6], [3, 7]],
+			"description": "Small island near the UK, Isle of .....",
+			"orientation": "horizontal",
+			"position": 5,
+			"startX": 3,
+			"startY": 3,
+			"uid": "csbswaqnc"
+		},
+		{
+			"answer": 1000846841,
+			"coords": [
+				[3, 7],
+				[4, 7],
+				[5, 7],
+				[6, 7],
+				[7, 7],
+				[8, 7],
+				[9, 7],
+				[10, 7]
+			],
+			"description": "Last name of the Iron Lady",
+			"orientation": "vertical",
+			"position": 6,
+			"startX": 7,
+			"startY": 3,
+			"uid": "lvawami5a"
+		},
+		{
+			"answer": 100913,
+			"coords": [[3, 11], [4, 11], [5, 11]],
+			"description": "Big wheel in London",
+			"orientation": "vertical",
+			"position": 7,
+			"startX": 11,
+			"startY": 3,
+			"uid": "gjkru0odp"
+		},
+		{
+			"answer": 99049120,
+			"coords": [[4, 7], [4, 8], [4, 9], [4, 10], [4, 11]],
+			"description": "Current Prince in the UK",
+			"orientation": "horizontal",
+			"position": 8,
+			"startX": 7,
+			"startY": 4,
+			"uid": "x1zob14bo"
+		},
+		{
+			"answer": -1413176832,
+			"coords": [[5, 0], [5, 1], [5, 2], [5, 3], [5, 4], [5, 5]],
+			"description": "'England' is derived from land of the ......",
+			"orientation": "horizontal",
+			"position": 9,
+			"startX": 0,
+			"startY": 5,
+			"uid": "oa30xlndq"
+		},
+		{
+			"answer": -1097131496,
+			"coords": [[5, 3], [6, 3], [7, 3], [8, 3], [9, 3], [10, 3]],
+			"description": "Biggest city in the UK",
+			"orientation": "vertical",
+			"position": 10,
+			"startX": 3,
+			"startY": 5,
+			"uid": "3cjsphn13"
+		},
+		{
+			"answer": -1380901522,
+			"coords": [[10, 6], [10, 7], [10, 8], [10, 9], [10, 10], [10, 11]],
+			"description": "UK leaving the EU",
+			"orientation": "horizontal",
+			"position": 11,
+			"startX": 6,
+			"startY": 10,
+			"uid": "yuih5fu7c"
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"extends": ["eslint:recommended"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 2016,
+		"experimentalDecorators": true,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"for-direction": "off",
+		"array-callback-return": "error",
+		"dot-location": ["error", "property"],
+		"dot-notation": "error",
+		"no-else-return": "warn",
+		"no-eq-null": "error",
+		"no-eval": "error",
+		"no-multi-spaces": [
+			"error",
+			{
+				"exceptions": {
+					"Property": true,
+					"VariableDeclarator": true,
+					"ImportDeclaration": true
+				}
+			}
+		],
+		"array-bracket-newline": ["error", "consistent"],
+		"block-spacing": "error",
+		"brace-style": [
+			"warn",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"comma-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"consistent-this": ["error", "self"],
+		"func-call-spacing": "error",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"lines-around-comment": [
+			"error",
+			{
+				"beforeBlockComment": false,
+				"beforeLineComment": false,
+				"allowBlockStart": true
+			}
+		],
+		"lines-between-class-members": ["error", "always"],
+		"max-depth": ["error", 4],
+		"max-params": ["warn", 4],
+		"new-cap": [
+			"error",
+			{
+				"newIsCap": true
+			}
+		],
+		"new-parens": "error",
+		"no-array-constructor": "error",
+		"no-lonely-if": "error",
+		"no-mixed-operators": "error",
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+		"no-multi-assign": "error",
+		"no-multiple-empty-lines": "error",
+		"no-nested-ternary": "error",
+		"no-trailing-spaces": "error",
+		"no-unneeded-ternary": "error",
+		"no-whitespace-before-property": "error",
+		"object-curly-newline": [
+			"error",
+			{
+				"consistent": true
+			}
+		],
+		"semi": ["error", "always"],
+		"semi-style": ["error", "last"],
+		"space-before-blocks": ["warn", "always"],
+		"prefer-const": "warn"
+	}
+}
