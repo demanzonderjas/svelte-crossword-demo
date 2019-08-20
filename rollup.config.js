@@ -42,7 +42,14 @@ export default {
 			dedupe: importee =>
 				importee === "svelte" || importee.startsWith("svelte/")
 		}),
-		commonjs(),
+		commonjs({
+			namedExports: {
+				// left-hand side can be an absolute path, a path
+				// relative to the current directory, or the name
+				// of a module in node_modules
+				"node_modules/idb/build/idb.js": ["openDb"]
+			}
+		}),
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production

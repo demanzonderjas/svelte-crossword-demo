@@ -2,8 +2,14 @@
   import Row from "./components/Row.svelte";
   import { crossword } from "./stores/Crossword";
   import { activeWord } from "./stores/ActiveWord";
+  import initMultiplayer from "./stores/Multiplayer";
   import Question from "./components/Question.svelte";
   import Descriptions from "./components/Descriptions.svelte";
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    initMultiplayer();
+  });
 </script>
 
 <style>
