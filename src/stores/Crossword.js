@@ -13,9 +13,24 @@ function createCrosswordStore() {
 		});
 	};
 
+	const handleWordCoords = (coords, answer) => {
+		return update(grid => {
+			coords.forEach(([row, column], index) => {
+				grid[row][column] = answer[index];
+			});
+			return grid;
+		});
+	};
+
+	const getAnswerString = coords => {
+		return coords.map(([row, column]) => grid[row][column]).join("");
+	};
+
 	return {
 		subscribe,
-		handleInput
+		handleInput,
+		handleWordCoords,
+		getAnswerString
 	};
 }
 

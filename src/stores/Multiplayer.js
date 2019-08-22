@@ -1,7 +1,15 @@
+import data from "../data/config.json";
 import firebase from "firebase";
 import "firebase/firestore";
+import { writable } from "svelte/store";
 
-export default function initDb() {
+export const multiplayer = writable({
+	db: null,
+	user: null,
+	game_uid: null
+});
+
+export function initMultiplayer() {
 	firebase.initializeApp({
 		apiKey: "AIzaSyAHFZu7aXeFw-Ce6aoi1ZQQnd97AEQBhTQ",
 		authDomain: "puzzelorg-dev.firebaseapp.com",
@@ -9,11 +17,19 @@ export default function initDb() {
 	});
 
 	const db = firebase.firestore();
+	firebase
+		.auth()
+		.signInAnonymously()
+		.catch(console.error);
 
-	db.collection("test")
-		.add({
-			done: true
-		})
-		.then(doc => console.log("doc id ::  ", doc.id))
-		.catch(err => console.error("error adding doc", err));
+	firebase.auth().onAuthStateChanged(user => {
+		if (user) {
+			console.log("user :: ", user);
+			multiplayer.set({
+				db,
+				user,
+				game_uid: data.game_uid
+			});
+		}
+	});
 }
